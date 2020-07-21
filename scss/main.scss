@@ -1,5 +1,6 @@
 @import "config";
 @import "utilities";
+// @import "media";
 // general reset and style
 
 * {
@@ -107,8 +108,7 @@ img {
       margin-top: 3rem;
       display: grid;
       grid-gap: 1rem;
-      grid-template-columns: repeat(4, 1fr);
-
+      grid-template-columns: repeat(3, 1fr);
       .fas {
         color: $main-color;
         padding-bottom: 0.4rem;
@@ -316,7 +316,7 @@ img {
       // padding-bottom:;
     }
     a {
-      padding: 1rem;
+      padding: 0.5rem;
       &:hover {
         color: rgb(70, 70, 70);
       }
