@@ -51,7 +51,7 @@ input[class^="btn-"]:hover {
   color: set-text-color(#ccc); }
 
 .lead {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin-bottom: 2rem; }
 
 .text-center {
@@ -120,8 +120,8 @@ img {
   width: 100%; }
 
 #logo {
-  width: 222px;
-  height: 222px; }
+  width: 215px;
+  height: 215px; }
 
 #header-home {
   background: url("/dist/img/anoback.jpg") no-repeat center center/cover;
@@ -129,10 +129,11 @@ img {
   color: white; }
   #header-home .header-content {
     text-align: center;
-    padding-top: 20%; }
+    padding-top: 21%;
+    margin-bottom: 10px; }
     #header-home .header-content h1 {
-      font-size: 4rem;
-      line-height: 1.4; }
+      font-size: 3.5rem;
+      line-height: 1.1; }
 
 #header-inner {
   background: url("/dist/img/anoback.jpg") no-repeat 20% 30%/cover;
